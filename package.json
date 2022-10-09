@@ -1,0 +1,45 @@
+{
+  "name": "integration-tests-jest",
+  "version": "1.0.0",
+  "description": "API testing with a simple integration between JestJS and PactumJS.",
+  "main": "index.js",
+  "devDependencies": {
+    "@faker-js/faker": "^7.5.0",
+    "@types/jest": "^28.1.8",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "eslint": "^8.24.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^28.1.3",
+    "jest-html-reporters": "^3.0.11",
+    "mkdirp": "^1.0.4",
+    "pactum": "^3.2.2",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "clean": "rimraf ./dist ./output && mkdirp ./dist ./output",
+    "format": "prettier --write \"**/**.[jt]s?(x)\"",
+    "verify": "prettier --check \"**/**.[jt]s?(x)\"",
+    "lint": "eslint \"**/**.[jt]s?(x)\"",
+    "lint:report": "eslint \"**/**.[jt]s?(x)\" -o output/eslint.html -f html",
+    "jest:config": "jest --config ./jest.config.js",
+    "test": "npm run jest:config",
+    "ci": "npm run clean && npm run format && npm run verify && npm run lint:report && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ugioni/integration-tests-jest.git"
+  },
+  "author": "maiconalano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maiconalano/integration-tests-jest/issues"
+  },
+  "homepage": "https://github.com/maiconalano/integration-tests-jest#readme"
+}
