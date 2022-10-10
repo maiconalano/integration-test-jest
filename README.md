@@ -4,6 +4,9 @@
 
 > Simple integration between JestJS and PactumJS.
 
+# SonarCloud
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=maiconalano_integration-test-jest&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=maiconalano_integration-test-jest)
+
 # Getting Started
 
 ### Pactum docs:
