@@ -1,6 +1,6 @@
 # integration-tests-jest
 
-[![Node.js CI](https://img.shields.io/appveyor/tests/maiconalano/integration-test-jest)](https://github.com/maiconalano/integration-tests-jest/actions/workflows/node.js.yml)
+[![Node.js CI](https://img.shields.io/appveyor/tests/maiconalano/integration-test-jest)](https://github.com/maiconalano/integration-test-jest/actions/workflows/node.js.yml)
 
 > Simple integration between JestJS and PactumJS.
 
