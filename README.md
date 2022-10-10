@@ -24,4 +24,4 @@ After that you should see a `./output` folder with some `HTML` reports.
 ### API example docs:
  - [http bin](http://httpbin.org/)
  - [rick and morty api](https://rickandmortyapi.com/documentation/#rest)
- - [ServeRest] (https://serverest.dev)
+ - [ServeRest](https://serverest.dev)
