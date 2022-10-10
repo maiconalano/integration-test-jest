@@ -22,6 +22,6 @@ Inside of the project folder run:
 After that you should see a `./output` folder with some `HTML` reports.
 
 ### API example docs:
- - [http bin](http://httpbin.org/)
- - [rick and morty api](https://rickandmortyapi.com/documentation/#rest)
+ - [httpbin](http://httpbin.org/)
+ - [Rick and Morty API](https://rickandmortyapi.com/documentation/#rest)
  - [ServeRest](https://serverest.dev)
